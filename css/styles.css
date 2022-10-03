@@ -1,0 +1,177 @@
+.body {
+    color: #757575;
+    background-color: #ffffff;
+    font-family: 'Roboto';
+    font-style: normal;
+    letter-spacing: 0.03em;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Logo */
+.logo {
+    color: #2196F3;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.logo-header {
+    color: black;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.logo:hover,
+.logo:focus {
+    color: #2196F3;
+}
+
+/* Site navigation */
+.site-nav {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #212121;
+}
+
+.link-secondary {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #757575;
+}
+
+.link-secondary:hover,
+.link-secondary:focus {
+    color: #2196F3;
+}
+
+.link-primmary:hover,
+.link-primary:focus {
+    color: #2196F3;
+}
+
+/* Секція 1 (Hero) */
+.hero {
+    background-color:#2F303A ;
+}
+
+.hero-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.button {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    align-items: center;
+    letter-spacing: 0.06em;
+}
+
+/* Секція 2-3-4 */
+.section-title {
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+}
+
+/* Секція 2 (Features) */
+.features {
+    color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.description-features {
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/* Секція 4 (Наша команда) */
+.team-section {
+    background-color: #f5f4fa;
+
+}
+
+.team {
+    background-color: #ffffff;
+}
+
+.name {
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.position {
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+/* Footer */
+.footer {
+    background-color: #2F303A;
+}
+
+.foot-primary-link:hover,
+.foot-primary-link:focus,
+.foot-secondary-link:hover,
+.foot-secondary-link:focus {
+    color: #2196F3;
+}
+
+.foot-primary-link {
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.foot-secondary-link {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/* Портфоліо */
+.filter-button {
+    color: #212121;
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.description-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.work-list .description {
+    font-size: 16px;
+    line-height: 1.8;
+}
