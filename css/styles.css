@@ -16,6 +16,8 @@ ul {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
     text-decoration: none;
 }
 
@@ -63,6 +65,7 @@ ul {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .link-secondary:hover,
@@ -129,7 +132,6 @@ ul {
 /* Секція 4 (Наша команда) */
 .team-section {
     background-color: #f5f4fa;
-
 }
 
 .team {
@@ -165,6 +167,7 @@ ul {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
+    text-decoration: none;
 }
 
 .foot-secondary-link {
@@ -172,6 +175,7 @@ ul {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
+    text-decoration: none;
 }
 
 .logo-footer {
@@ -188,6 +192,8 @@ ul {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    border: none;
+    cursor: pointer;
 }
 
 .button-filter:hover,
