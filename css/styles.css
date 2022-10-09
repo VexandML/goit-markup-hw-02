@@ -1,6 +1,16 @@
+:root {
+    --color-primary: #757575;
+    --color-brand: #2196f3;
+    --color-black: #000000;
+    --color-inverted: #212121;
+    --color-bcg-primary: #ffffff;
+    --color-bcg-secondary: #2f303a;
+    --color-bcg-accent: #f5f4fa;
+}
+
 .body {
-    color: #757575;
-    background-color: #ffffff;
+    color: var(--color-primary);
+    background-color: var(--color-bcg-primary);
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     letter-spacing: 0.03em;
@@ -12,7 +22,7 @@ ul {
 
 /* Logo */
 .logo {
-    color: #2196F3;
+    color: var(--color-brand);
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -22,7 +32,7 @@ ul {
 }
 
 .logo-header {
-    color: black;
+    color: var(--color-black);
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -30,7 +40,7 @@ ul {
 
 .logo:hover,
 .logo:focus {
-    color: #2196F3;
+    color: var(--color-brand);
 }
 
 /* Site navigation */
@@ -39,26 +49,26 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    color: #212121;
+    color: var(--color-inverted);
 }
 
 .link-primary-current {
-    color: #2196F3;
+    color: var(--color-brand);
     text-decoration: none;
 }
 
 .link-primary {
-    color: #212121;
+    color: var(--color-inverted);
     text-decoration: none;
 }
 
 .link-primary:hover,
 .link-primary:focus {
-    color: #2196F3;
+    color: var(--color-brand);
 }
 
 .link-secondary {
-    color: #757575;
+    color: var(--color-primary);
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -70,12 +80,12 @@ ul {
 
 .link-secondary:hover,
 .link-secondary:focus {
-    color: #2196F3;
+    color: var(--color-brand);
 }
 
 /* Секція 1 (Hero) */
 .hero {
-    background-color:#2F303A ;
+    background-color: var(--color-bcg-secondary);
 }
 
 .hero-title {
@@ -87,12 +97,12 @@ ul {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--color-bcg-primary);
 }
 
 .button {
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--color-bcg-primary);
+    background-color: var(--color-brand);
     cursor: pointer;
     font-weight: 700;
     font-size: 16px;
@@ -104,12 +114,12 @@ ul {
 
 .button:hover {
     background-color: #188ce8;
-    color: #ffffff;
+    color: var(--color-bcg-primary);
 }
 
 /* Секція 2-3-4 */
 .section-title {
-    color: #212121;
+    color: var(--color-inverted);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -117,7 +127,7 @@ ul {
 
 /* Секція 2 (Features) */
 .features {
-    color: #212121;
+    color: var(--color-inverted);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -131,15 +141,15 @@ ul {
 
 /* Секція 4 (Наша команда) */
 .team-section {
-    background-color: #f5f4fa;
+    background-color: var(--color-bcg-accent);
 }
 
 .team {
-    background-color: #ffffff;
+    background-color: var(--color-bcg-primary);
 }
 
 .name {
-    color: #212121;
+    color: var(--color-inverted);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -152,18 +162,18 @@ ul {
 
 /* Footer */
 .footer {
-    background-color: #2F303A;
+    background-color: var(--color-bcg-secondary);
 }
 
 .foot-primary-link:hover,
 .foot-primary-link:focus,
 .foot-secondary-link:hover,
 .foot-secondary-link:focus {
-    color: #2196F3;
+    color: var(--color-brand);
 }
 
 .foot-primary-link {
-    color: #FFFFFF;
+    color: var(--color-bcg-primary);
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -179,7 +189,7 @@ ul {
 }
 
 .logo-footer {
-    color: #ffffff;
+    color: var(--color-bcg-primary);
 }
 
 /* Портфоліо */
@@ -191,14 +201,14 @@ ul {
     line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--color-inverted);
     border: none;
     cursor: pointer;
 }
 
 .button-filter:hover,
 .button-filter:focus {
-    background-color: #2196F3;
+    background-color: var(--color-brand);
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -206,7 +216,7 @@ ul {
     line-height: 1.7;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--color-bcg-primary);
 }
 
 .description-title {
@@ -216,7 +226,7 @@ ul {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--color-inverted);
 }
 
 .work-list .description {
@@ -226,5 +236,5 @@ ul {
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--color-primary);
 }
